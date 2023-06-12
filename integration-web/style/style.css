@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+html, body {
+  height: 100%; /* Ajoutez une hauteur de 100% à html et body */
+}
+
+body {
+  display: flex; /* Utilisez Flexbox pour aligner les éléments verticalement */
+  flex-direction: column;
+  margin: 0; /* Supprimez la marge par défaut */
+}
+
+/* Le reste de votre code CSS */
+
+body {
+  background: linear-gradient(to bottom left, #0577fd, #84bcff) no-repeat fixed;
+  padding-top: 3vw;
+  padding-bottom: 10%;
+  flex-grow: 1;
+}
+
+main {
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 50%;
+  background-color: whitesmoke;
+}
+
+h1 {
+  padding: 3% 0;
+}
+
+a label.text{
+color: rgb(2, 21, 29);
+}
+.updateTitle{
+  color: rgb(2, 21, 29);
+}
+
+
+
+
+
+
+.containerDePasseAction-effaceTout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top {
+  display: flex;
+  justify-content: center; /* Ajoutez cette ligne pour centrer le contenu horizontalement */
+  align-items: center; /* Ajoutez cette ligne pour centrer le contenu verticalement */
+}
+
+.PasseAction {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.search {
+  width: 100%;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  padding: 3%;
+}
+
+.go {
+  padding: 0 5%;
+  margin-left: 5%;
+  background-color: #354783;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.corps {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 0%;
+}
+
+
+
+article {
+  background-color: rgb(214, 212, 212);
+  border-radius: 5px;
+  padding: 1%;
+}
+
+article p {
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.Tache {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
+.poubelle {
+  height: 2%;
+  margin-top: 2%;
+  margin-right: 3%;
+  border: none;
+  background-color: whitesmoke;
+}
+
+.modifier {
+  position: relative;
+  height: 2%;
+  margin-top: 3%;
+  margin-right: 5%;
+  border: none;
+  background-color: whitesmoke;
+}
+
+.poubelle:hover {
+  background-color: rgb(190, 187, 187);
+  opacity: 80%;
+}
+
+.modifier:hover {
+  background-color: rgb(190, 187, 187);
+  opacity: 80%;
+}
+
+.poubelle:active {
+  background-color: #f80a0a;
+}
+
+.modifier:active {
+  background-color: #3af80a;
+}
+
+.valide {
+  margin-top: 3.5%;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5%;
+}
+
+span {
+  font-weight: bolder;
+}
+
+.delete {
+  background-color: #8a2727;
+  color: white;
+  border-radius: 18px;
+}
+
+input::placeholder {
+  color: rgb(255, 255, 255);
+  background-color: #686868;
+}
+
+.center-form {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 20vh;
+}
+
+.rounded-input {
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* Media Query pour les petits écrans */
+@media (max-width: 768px) {
+  main {
+    width: 80%;
+  }
+}
+
+/* Media Query pour les très petits écrans */
+@media (max-width: 480px) {
+  main {
+    width: 95%;
+  }
+}
